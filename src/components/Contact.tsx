@@ -39,6 +39,14 @@ export default function Contact() {
             >
               LinkedIn ↗
             </a>
+            <a
+              href="https://github.com/modhshubham3"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={btnDarkGhostCls}
+            >
+              GitHub ↗
+            </a>
           </div>
           <div className="mt-8 flex flex-wrap gap-x-8 gap-y-2 font-mono text-[13px] text-dark-muted">
             <a href="mailto:modhshubham3@gmail.com" className="text-dark-muted hover:text-dark-accent">
