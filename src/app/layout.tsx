@@ -24,7 +24,7 @@ const description =
   "Freelance .NET & full-stack developer. Web applications, REST APIs, dashboards, and real-time systems built with ASP.NET Core, Angular, and PostgreSQL — with production discipline from running live fleet-tracking platforms.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://shubham-builds.vercel.app"),
+  metadataBase: new URL("https://shubham-builds-eight.vercel.app"),
   title: "Shubham Modh — Freelance .NET Developer",
   description,
   alternates: { canonical: "/" },
