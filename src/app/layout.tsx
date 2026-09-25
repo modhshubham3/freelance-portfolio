@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Bricolage_Grotesque, Figtree, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const bricolage = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -60,6 +61,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="bg-bg font-sans text-[17px] leading-[1.6] text-ink antialiased">
         {children}
+        <Analytics />
       </body>
     </html>
   );
