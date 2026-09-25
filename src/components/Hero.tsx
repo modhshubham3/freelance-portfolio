@@ -1,4 +1,5 @@
 import { btnDarkGhostCls, btnPrimaryCls, WHATSAPP_URL } from "./ui";
+import TrackedLink from "./TrackedLink";
 
 const stats = [
   { value: "~700", label: "vehicles live-tracked on a platform I develop" },
@@ -29,14 +30,16 @@ export default function Hero() {
             <a href="#contact" className={btnPrimaryCls}>
               Start a project →
             </a>
-            <a
+            <TrackedLink
+              event="whatsapp_click"
+              where="hero"
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className={btnDarkGhostCls}
             >
               WhatsApp me
-            </a>
+            </TrackedLink>
             <a href="#services" className={btnDarkGhostCls}>
               See services
             </a>

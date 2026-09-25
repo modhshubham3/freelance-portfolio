@@ -1,5 +1,6 @@
 import Reveal from "./Reveal";
 import { btnDarkGhostCls, btnPrimaryCls, EMAIL_URL, WHATSAPP_URL } from "./ui";
+import TrackedLink from "./TrackedLink";
 
 export default function Contact() {
   return (
@@ -20,17 +21,24 @@ export default function Contact() {
             within 48 hours of our discovery call.
           </p>
           <div className="mt-9 flex flex-wrap gap-3.5">
-            <a href={EMAIL_URL} className={btnPrimaryCls}>
+            <TrackedLink
+              event="email_click"
+              where="contact"
+              href={EMAIL_URL}
+              className={btnPrimaryCls}
+            >
               Email me →
-            </a>
-            <a
+            </TrackedLink>
+            <TrackedLink
+              event="whatsapp_click"
+              where="contact"
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className={btnDarkGhostCls}
             >
               WhatsApp
-            </a>
+            </TrackedLink>
             <a
               href="https://www.linkedin.com/in/shubham-modh-26a23021b"
               target="_blank"
