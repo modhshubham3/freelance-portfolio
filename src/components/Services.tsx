@@ -15,6 +15,12 @@ const services: {
     items: ["ASP.NET Core + Angular", "PostgreSQL schema design", "Auth & role-based access"],
   },
   {
+    icon: "🛒",
+    name: "Online stores & technical SEO",
+    text: "A fast shopping website with product catalogue, cart, and online payments — built so search engines can crawl it from day one. Social media and ads can be added through my marketing partner team.",
+    items: ["Product catalogue, cart & checkout", "Payment gateway integration (Razorpay / Stripe)", "Technical SEO: speed, sitemap, schema, meta tags"],
+  },
+  {
     icon: "🔌",
     name: "REST APIs & integrations",
     text: "Clean, documented APIs — and integrations with payment gateways, vendor systems, and third-party services.",

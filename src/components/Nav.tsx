@@ -3,6 +3,7 @@ import MobileMenu from "./MobileMenu";
 const sections = [
   { no: "", label: "Services", href: "#services" },
   { no: "", label: "Work", href: "#work" },
+  { no: "", label: "Projects", href: "#projects" },
   { no: "", label: "Process", href: "#process" },
   { no: "", label: "Ways to work", href: "#engagement" },
   { no: "", label: "FAQ", href: "#faq" },
